@@ -1,6 +1,8 @@
 # subpop-results
 Results from the latest Rapid7 Sonar FDNS processed by subpop for use with tools
 
+Full credit goes to [https://github.com/bitquark/dnspop]()
+
 ## things you should know
 
 I usually do this on an m4 instance on AWS, you'll need a disk with around 200GB of space for the data. Also running the python script with pypy offers a massive speed improvment, I could have scaled up to a bigger CPU instance which would have increased processing time by a bit but meh.
